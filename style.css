@@ -6,9 +6,12 @@
        
                          
 }
-
+body{
+    background-color: rgb(236, 196, 17);
+}
 ul li{
     display: inline;
+    
     }
 
 a:hover{
@@ -18,7 +21,8 @@ a:hover{
 
 #poule{
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
+    width: 100%;
 }
 
 #welcome{
@@ -28,8 +32,18 @@ a:hover{
     flex-direction: column;
     text-align: center;
     }
+@font-face {
+        font-family: 'orange juice.ttf';
+        src: url(Font/orange\ juice\ 2.0.ttf);
+        font-weight: normal;
+        font-size: normal;
+        
+    }
 h1{
-    font-family: ;
+    color: black;/*rgb(0,0,0) ou #000 */
+    font-size: 70px;
+    font-family: 'orange juice';
+
 }
 
 .eggs{
