@@ -1,0 +1,38 @@
+#nav{
+        background: rgb(238, 151, 21);
+        display: flex;
+        justify-content: space-around;
+        padding: 12px;
+       
+                         
+}
+
+ul li{
+    display: inline;
+    }
+
+a:hover{
+    color:rgb(243, 211, 211);
+}
+
+
+#poule{
+    display: flex;
+    justify-content: stretch;
+}
+
+#welcome{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    }
+h1{
+    font-family: ;
+}
+
+.eggs{
+    display: flex;
+    justify-content: space-around;
+}
